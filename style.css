@@ -18,3 +18,9 @@ p {
 body {
     background-color: grey;
 }
+img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+}
