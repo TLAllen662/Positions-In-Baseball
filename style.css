@@ -24,3 +24,13 @@ img {
     display: block;
     border-radius: 8px;
 }
+
+.flex-container {
+  display: flex;
+}
+
+.box {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 10px;
+}
