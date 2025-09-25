@@ -16,7 +16,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: grey;
+    background-color: lightblue;
 }
 img {
     width: 50%;
@@ -27,10 +27,22 @@ img {
 
 .flex-container {
   display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30 px;
 }
 
 .box {
   background-color: lightgray;
   padding: 20px;
   margin: 10px;
+}
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
 }
